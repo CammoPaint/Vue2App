@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-app</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/x-template" id="alert-template">
+      <div v-if="alerts.length > 0" >
+        <uiv-alert v-for="(alert, index) in alerts" :type="alert.type"  :duration="alert.duration" :key="alert.key" @dismissed="alerts.splice(index, 1)">
+        <strong>{{alert.title}}:</strong> {{alert.msg}}
+        </uiv-alert>
+    </div>
+  </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

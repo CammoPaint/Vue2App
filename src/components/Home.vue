@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <alert-component v-bind:alerts="alerts"></alert-component>
-    <h1>{{ name }}</h1> 
     <alert :alerts="alerts"></alert>
+    <h1>{{ name }}</h1> 
   <div class="well">
     <form v-on:submit.prevent="onSubmit">
       <div class="form-group">

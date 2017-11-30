@@ -10,12 +10,6 @@ import * as uiv from 'uiv'
 Vue.config.productionTip = false
 Vue.use(uiv, {prefix: 'uiv'})
 
-Vue.component('alert-component', {
-  // declare the props
-  props: ['alerts'],
-  template: '#alert-template'
-})
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

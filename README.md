@@ -1,6 +1,12 @@
 # vue-app
 
-> A Vue.js project
+> A simple Vue.js application that demonstrates how to interact with an external API, displaying results in a familiar [Bootstrap 3](https://getbootstrap.com/docs/3.3/) UI.
+
+[Live Demo](http://myvueapp.azurewebsites.net/) Azure App Service
+
+See the blog posts below for a detailed description about how to implement CI/CD with Visual Studio Team Services and Azzure:
+[Building a VueJS or React application with Continuous Integration](http://blog.ezidata.com.au/post/Building-a-VueJS-or-React-application-with-Continuous-Integration.aspx)
+[Publish a VueJS or React Application to Azure](http://blog.ezidata.com.au/post/Publish-a-VueJS-or-React-Application-to-Azure.aspx)
 
 ## Build Setup
 
@@ -17,5 +23,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
